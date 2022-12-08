@@ -1,0 +1,20 @@
+
+.start-page__content-container {
+    background: url(../image/start_page.png) no-repeat right 130px bottom;
+    min-height: 823px;
+}
+
+.start-page__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    text-align: left;
+    letter-spacing: -0.1em;
+}
+
+.start-page__pharagraph {
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 100px;
+    font-weight: 400;
+}

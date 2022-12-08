@@ -1,0 +1,85 @@
+
+.about-us__content-container {
+    margin-bottom: 70px;
+}
+
+.about-us__title {
+    margin-bottom: 50px;
+}
+
+#aboutus {
+    display: flow-root;
+}
+
+.about-us__image {
+    float: left;
+}
+
+.about-us__content-container {
+    float: right;
+    max-width: 500px;
+}
+
+.about-us__blockquote {
+    float: right;
+    max-width: 470px;
+}
+
+.about-us__pharagraph {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.about-us__pharagraph:last-child {
+    margin-bottom: 0;
+}
+
+.about-us__cite {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+    white-space: pre-line;
+    
+}
+
+.about-us__cite:before {
+    content: "“ ";
+    position: absolute;
+    left: -28px;
+    top: 0px;
+    font-weight: 900;
+    color: #6C0287;
+}
+
+.about-us__cite:after {
+    content: " ”";
+    font-weight: 900;
+    color: #6C0287;
+}
+
+.about-us__blockquote {
+    display: flow-root;
+}
+
+.about-us__autor {
+    float: right;
+    display: block;
+}
+
+.about-us__img-arcady {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about-us__pharagraph {
+    font-size: 20px;
+    line-height: 28px;
+    display: inline-block;
+    max-width: 500px;
+    vertical-align: super;
+}
