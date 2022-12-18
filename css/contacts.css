@@ -35,3 +35,20 @@
     display: inline-block;
     margin-right: 27px;
 }
+
+.contacts__flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 156px;
+}
+
+.contacts__flexbox:last-child {
+    margin-bottom: 0;
+}
+
+.contacts__autor {
+    max-width: 157px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}

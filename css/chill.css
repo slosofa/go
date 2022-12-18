@@ -1,0 +1,49 @@
+
+.chill__title {
+    text-align: center;
+    padding: 0 150px;
+    margin-bottom: 40px;
+}
+
+.chill__list {
+    display: flex;
+    gap: 40px 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chill__item {
+    min-width: 380px;
+    white-space: pre-line;
+}
+
+.chill__item_glasses {
+    background: url(../image/vr-glasses.png) no-repeat;
+    padding: 166px 40px 34px 40px;
+}
+
+.chill__item_audio {
+    background: url(../image/audio.png) no-repeat;
+    padding: 166px 40px 6px 40px;
+}
+
+.chill__item_karaoke {
+    background: url(../image/karaoke.png) no-repeat;
+    padding: 166px 40px 20px 40px;
+}
+
+.chill__item_broad-games {
+    background: url(../image/board-games.png) no-repeat;
+    padding: 166px 40px 20px 40px;
+}
+
+.chill__item_cinema {
+    background: url(../image/cinema-services.png) no-repeat;
+    padding: 166px 40px 6px 40px;
+}
+
+.chill__item_play-station {
+    background: url(../image/playstation.png) no-repeat;
+    padding: 166px 40px 20px 40px;
+}

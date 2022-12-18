@@ -3,42 +3,37 @@
     margin-bottom: 60px;
 }
 
+.halls__list {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .halls__item {
-    display: inline-block;
-    vertical-align: top;
-    max-width: 580px;
-    min-height: 349px;
-    margin-bottom: 20px;
+    min-width: 580px;
+    max-height: 349px;
     font-size: 70px;
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.halls__item:nth-child(n+3) {
-    margin-bottom: 0;
-}
-
-.halls__item:not(:nth-child(2n)) {
-    margin-right: 16px;
+    white-space: pre-line;
+    padding: 94px 164px;
 }
 
 .halls__item-vibes {
     background: url(../image/80svibes.png) no-repeat center;
-    padding: 135px 103px 134px 103px;
 }
 
 .halls__item-star-wars {
     background: url(../image/star_wars.png) no-repeat center;
-    padding: 135px 82px 134px 82px;
 }
 
 .halls__item-wild-west {
     background: url(../image/wild_west.png) no-repeat center;
-    padding: 135px 89px 134px 89px;
 }
 
 .halls__item-neon-style {
     background: url(../image/neon_style.png) no-repeat center;
-    padding: 135px 66px 134px 66px;
 }

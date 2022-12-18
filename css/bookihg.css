@@ -1,8 +1,155 @@
+.booking {
+    background-color: #440F51;
+}
 
 .booking__title {
     margin-bottom: 50px;
 }
 
-.booking {
-    background-color: #6C0287;
+.booking__legend-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
 }
+
+.booking__flexbox-first {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.booking__flex {
+    border: none;
+}
+
+.booking__label-halls {
+    min-width: 250px;
+    min-height: 55px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 7px 15px;
+}
+
+
+.booking__flexbox-second {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.booking__legend {
+    margin-bottom: 23px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.booking__label {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.booking__label:last-child {
+    margin-bottom: 0;
+}
+
+.booking__input-circle {
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+}
+
+.booking__input-square {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.booking__flexbox-third {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.booking__form-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 300px;
+    padding-top: 16px;
+}
+
+.booking__label-left:last-child {
+    padding-top: 31px;
+}
+
+.booking__input-time {
+    min-width: 134px;
+    min-height: 52px;
+    background: #FFFFFF;
+    display: block;
+}
+
+.booking__input-persons {
+    min-width: 300px;
+    min-height: 52px;
+    background: #FFFFFF;
+    padding-top: px;
+}
+
+.booking__form-right {
+    display: flex;
+    column-gap: 14px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 610px;
+}
+
+.booking__label-right {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.booking__input-right {
+    display: block;
+    min-width: 300px;
+    min-height: 52px;
+    background: #FFFFFF;
+}
+
+.booking__container-button {
+    padding: 0 100px;
+}
+
+.booking__button {
+    min-width: 300px;
+    min-height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6C0287;
+    border: none;
+    display: block;
+    margin-left: auto;
+}
+

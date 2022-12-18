@@ -2,6 +2,7 @@
 .start-page__content-container {
     background: url(../image/start_page.png) no-repeat right 130px bottom;
     min-height: 823px;
+    position: relative;
 }
 
 .start-page__title {
@@ -17,4 +18,68 @@
     line-height: 50px;
     padding-left: 100px;
     font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.page__text_color_purple {
+    display: flex;
+    max-width: 336px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 103px;
+    padding-left: 130px;
+}
+
+.page__text {
+    display: flex;
+    max-width: 420px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 150px;
+}
+
+.start-page__element_font-size_max {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+}
+
+.start-page__element_font-size_min {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 106px;
+    font-variant: small-caps;
+    color: #CD06FF;
+}
+
+.start-page__element {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    max-width: 193px;
+}
+
+.start-page__button {
+    max-width: 374px;
+    min-height: 80px;
+    font-weight: 700;
+    background: #6C0287;
+    border-radius: 10px;
+    border-color: #6C0287;
+}
+
+.start-page__link {
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 25px 69px;
+}
+
+.start-page__down {
+    position: absolute;
+    left: 669px;
+    top: 636px;
 }

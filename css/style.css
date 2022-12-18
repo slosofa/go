@@ -1,4 +1,6 @@
 
+@import url(header.css);
+
 @import url(normalize.css);
 
 @import url(global.css);
@@ -6,6 +8,8 @@
 @import url(style.css);
 
 @import url(start-page.css);
+
+@import url(chill.css);
 
 @import url(halls.css);
 
@@ -37,10 +41,15 @@
     padding-bottom: 50px;
 }
 
-.section:first-child {
-    padding-top: 146px;
+.header {
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 .section:last-child {
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+}
+
+.start-page {
+    padding-top: 25px;
 }
