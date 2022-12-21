@@ -43,15 +43,17 @@
                 <div class="container start-page__content-container">
                     <h1 class="start-page__title">GAME OVER</h1>
                     <p class="start-page__pharagraph">Новый формат игр и отдыха</p>
-                    <div class="page__text_color_purple">
-                        <p class="start-page__element_font-size_max">4</p>
-                        <p class="start-page__element_font-size_min">new</p>
+                    <div class="page__block">
+                        <div class="page__text">
+                            <p class="start-page__element_font-size_max">4</p>
+                            <p class="start-page__element">Тематических зала</p>
+                        </div>
+                        <div class="page__text">
+                            <p class="start-page__element_font-size_min">new</p>
+                            <p class="start-page__element">Новейшая аппаратура</p>
+                        </div>
                     </div>
-                    <div class="page__text">
-                        <p class="start-page__element">Тематических зала</p>
-                        <p class="start-page__element">Новейшая аппаратура</p>
-                    </div>
-                    <button class="start-page__button" type="submit" name="booking" value="yes"><a class="start-page__link" href="#booking">Забронировать</a></button>
+                    <a class="start-page__button-link" href="#booking">Забронировать</a>
                     <a href="#chill">
                         <svg class="start-page__down" width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
@@ -101,29 +103,21 @@
                         
                         <fieldset class="booking__flexbox-first">
                             <legend class="booking__legend-title">Выбери зал</legend>
-                            <label class="booking__label-halls">
-                                <input class="booking__input" type="radio" name="halls" value="vibes">
-                                80❜s vibes
-                            </label>
-                            <label class="booking__label-halls">
-                                <input class="booking__input" type="radio" name="halls" value="starwars">
-                                star wars
-                            </label>
-                            <label class="booking__label-halls">
-                                <input class="booking__input" type="radio" name="halls" value="wildwest">
-                                wild west
-                            </label>
-                            <label class="booking__label-halls">
-                                <input class="booking__input" type="radio" name="halls" value="neon">
-                                neon style
-                            </label>
+                            <input class="booking__input visually-hidden" type="radio" name="halls" value="vibes" id="80s-vibes">
+                            <label class="booking__label-halls" tabindex="1" for="80s-vibes">80❜s vibes</label>
+                            <input class="booking__input visually-hidden" type="radio" name="halls" value="starwars" id="star-wars">
+                            <label class="booking__label-halls" tabindex="1" for="star-wars">star wars</label>
+                            <input class="booking__input visually-hidden" type="radio" name="halls" value="wildwest" id="wild-west">
+                            <label class="booking__label-halls" tabindex="1" for="wild-west">wild west</label>
+                            <input class="booking__input visually-hidden" type="radio" name="halls" value="neon" id="neon-style">
+                            <label class="booking__label-halls" tabindex="1" for="neon-style">neon style</label>
                         </fieldset>
 
                         <fieldset class="booking__flexbox-second">
                             <legend class="booking__legend-title">Собери набор развлечений</legend>
                             <fieldset class="booking__flex">
                                 <legend class="booking__legend">Приставка:</legend>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_max">
                                     <input class="booking__input-circle" type="radio" name="console" value="">
                                     PlayStation 5
                                 </label>
@@ -131,41 +125,41 @@
                                     <input class="booking__input-circle" type="radio" name="console" value="">
                                     Sega Mega Drive
                                 </label>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_max">
                                     <input class="booking__input-circle" type="radio" name="console" value="">
                                     X-box One S
                                 </label>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_middle">
                                     <input class="booking__input-circle" type="radio" name="console" value="">
                                     Dendy
                                 </label>
                             </fieldset>
                             <fieldset class="booking__flex">
                                 <legend class="booking__legend">Настольные игры:</legend>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_middle">
                                     <input class="booking__input-square" type="checkbox" name="board_games" value="Jenga">
                                     Jenga
                                 </label>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_middle">
                                     <input class="booking__input-square" type="checkbox" name="board_games" value="Monopoly">
                                     Monopoly
                                 </label>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_middle">
                                     <input class="booking__input-square" type="checkbox" name="board_games" value="Manchkin">
                                     Манчкин
                                 </label>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_middle">
                                     <input class="booking__input-square" type="checkbox" name="board_games" value="Alias">
                                     Alias
                                 </label>
                             </fieldset>
                             <fieldset class="booking__flex">
                                 <legend class="booking__legend">Дополнительно:</legend>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_middle">
                                     <input class="booking__input-square" type="checkbox" name="additionally" value="karaoke">
                                     Караоке
                                 </label>
-                                <label class="booking__label">
+                                <label class="booking__label booking__label_max-width_min">
                                     <input class="booking__input-square" type="checkbox" name="additionally" value="vr">
                                     VR
                                 </label>
@@ -176,12 +170,14 @@
                             <legend class="booking__legend-title">Выбери дату и время</legend>
                             
                             <div class="booking__form-left">
-                                <label class="booking__label-left">
-                                    <input class="booking__input-time" type="date" name="date" placeholder="Дата" required>
-                                </label>
-                                <label class="booking__label-left">
-                                    <input class="booking__input-time" type="time" name="time" placeholder="Время" required>
-                                </label>
+                                <div class="booking__form-top">
+                                    <label class="booking__label-left-top">
+                                        <input class="booking__input-time" type="date" name="date" placeholder="Дата" required>
+                                    </label>
+                                    <label class="booking__label-left-top">
+                                        <input class="booking__input-time" type="time" name="time" placeholder="Время" required>
+                                    </label>
+                                </div>
                                 <label class="booking__label-left">
                                     <input class="booking__input-persons" type="number" name="persons" placeholder="Сколько человек" required>
                                 </label>
@@ -189,20 +185,20 @@
 
                             <div class="booking__form-right">
                                 <label class="booking__label-right">
-                                    Имя
+                                    <span class="booking__label-text">Имя</span>
                                     <input class="booking__input-right" type="text" name="name" required>
                                 </label>
                                 <label class="booking__label-right">
-                                    Телефон
+                                    <span class="booking__label-text">Телефон</span>
                                     <input class="booking__input-right" type="tel" name="phone" required>
                                 </label>
                                 
                                 <label class="booking__label-right">
-                                    Фамилия
+                                    <span class="booking__label-text">Фамилия</span>
                                     <input class="booking__input-right" type="text" name="surname" required>
                                 </label>
                                 <label class="booking__label-right">
-                                    E-mail
+                                    <span class="booking__label-text">E-mail</span>
                                     <input class="booking__input-right" type="text" name="email" required>
                                 </label>
                             </div>
@@ -262,8 +258,8 @@
                 </div>
             </section>
 
-            <section class="fqa section">
-                <div id="fqa" class="container">
+            <section id="fqa" class="fqa section">
+                <div class="container">
                     <h2 class="fqa__title title">Частые вопросы</h2>
                     <ul class="fqa__list">
                         <li class="fqa__item">Можно ли забронировать комнату онлайн?</li>
