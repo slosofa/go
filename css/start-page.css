@@ -23,7 +23,7 @@
 
 .page__block {
     display: flex;
-    
+    margin-bottom: 150px;
 }
 
 .page__text {
@@ -31,27 +31,27 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    margin-bottom: 150px;
 }
 
 .page__text:not(:last-child) {
     margin-right: 40px;
 }
 
-.start-page__element_font-size_max {
+.page__element-purple {
+    color: #CD06FF;
     font-weight: 900;
+}
+
+.page__element-purple_font-size_max {
     font-size: 100px;
     line-height: 141px;
-    color: #CD06FF;
     vertical-align: bottom;
 }
 
-.start-page__element_font-size_min {
-    font-weight: 900;
+.page__element-purple_font-size_min {
     font-size: 75px;
     line-height: 106px;
     font-variant: small-caps;
-    color: #CD06FF;
 }
 
 .start-page__element {
@@ -64,7 +64,6 @@
 
 .start-page__button-link {
     position: relative;
-    min-width: 374px;
     font-weight: 700;
     background: #6C0287;
     border-radius: 10px;
@@ -74,7 +73,8 @@
     line-height: calc(30/26);
     text-transform: uppercase;
     color: #FFFFFF;
-    padding: 25px;
+    padding: 25px 69px;
+    display: inline-block;
 }
 
 .start-page__button-link:after {
